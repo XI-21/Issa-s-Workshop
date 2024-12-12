@@ -1,0 +1,32 @@
+[
+    {
+        "name": "SMALL_WINGS",
+        "appearance": {
+            "src": "modmakerFBB3C93",
+            "x": 0,
+            "y": 0,
+            "w": 2,
+            "h": 1
+        },
+        "providesBonus": "DISABLESUS",
+        "providesBonusWhenDestroyed": true,
+        "availableFor": ["AIRSHIP"],
+"hp": 300,
+"w": 2,
+"h": 1,
+"weight": 50,
+"cost": 120,
+"moveDelay": 300,
+"crew": 1,
+"coal": 20,
+"lift": 300,
+"categories": ["WORKSHOP"],
+
+        "windows": [
+            { "x": 0, "y": 0 },
+            { "x": 1, "y": 0 },
+            { "x": 2, "y": 0 }
+        ]
+		
+    }
+]

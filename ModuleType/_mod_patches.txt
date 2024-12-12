@@ -1,0 +1,55 @@
+[
+	{
+		"name": "FLAGSHIP_ARRAY",
+		"patch": true,
+
+		"lift": {
+			"base": 11500,
+			"multipliers": {
+				"SUSPENDIUM_SPECIALISTS": 1.3,
+				"GRACILE": 2,
+				"ELECTRODYNAMICS": 1.1,
+				"DISABLESUS": 0
+			}
+		}
+	},
+	{
+		"name": "LARGE_SUSPENDIUM_TURBINE_CHAMBER",
+		"patch": true,
+		"lift": {
+			"base": 16000,
+			"SUSPENDIUM_SPECIALISTS": 20000,
+			"multipliers": {
+				"ELECTRODYNAMICS": 1.1,
+				"DISABLESUS": 0
+			}
+		}
+	},
+	{
+		"name": "TAN_SUSPENDIUM_HOVER_WING",
+		"patch": true,
+
+		"lift": {
+			"base": 2200,
+			"multipliers": {
+				"SUSPENDIUM_SPECIALISTS": 1.3,
+				"GRACILE": 2,
+				"ELECTRODYNAMICS": 1.1,
+				"DISABLESUS": 0
+			}
+		}
+	},
+	{
+		"name": "TAN_LARGE_ANCHORED_SUSPENDIUM_CRYSTAL",
+		"patch": true,
+
+		"lift": {
+			"base": 800,
+			"multipliers": {
+				"ELECTRODYNAMICS": 1.1,
+				"DISABLESUS": 0
+			}
+		}
+	}
+]
+

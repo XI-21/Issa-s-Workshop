@@ -1,0 +1,169 @@
+[
+	{
+		"name": "SMALL_SUSPENDIUM_CHAMBER",
+		"patch": true,
+
+		"lift": {
+			"base": 600,
+			"multipliers": {
+				"SUSPENDIUM_SPECIALISTS": 1.3,
+				"GRACILE": 2,
+				"ELECTRODYNAMICS": 1.1,
+				"DISABLESUS": 0
+			}
+		}
+	},
+	{
+		"name": "SUSPENDIUM_CHAMBER",
+		"patch": true,
+
+		"lift": {
+			"base": 2000,
+			"multipliers": {
+				"SUSPENDIUM_SPECIALISTS": 1.3,
+				"GRACILE": 2,
+				"ELECTRODYNAMICS": 1.1,
+				"DISABLESUS": 0
+			}
+		}
+	},
+	{
+		"name": "LARGE_SUSPENDIUM_CHAMBER",
+		"patch": true,
+
+		"lift": {
+			"base": 5000,
+			"multipliers": {
+				"SUSPENDIUM_SPECIALISTS": 1.3,
+				"GRACILE": 2,
+				"ELECTRODYNAMICS": 1.1,
+				"DISABLESUS": 0
+			}
+		}
+	},
+	{
+		"name": "SUSPENDIUM_DUST_TANK",
+		"patch": true,
+
+		"lift": {
+			"base": 280,
+			"multipliers": {
+				"SUSPENDIUM_SPECIALISTS": 1.3,
+				"GRACILE": 2,
+				"ELECTRODYNAMICS": 1.1,
+				"DISABLESUS": 0
+			}
+		}
+	},
+	{
+		"name": "SUSPENDIUM_DUST_TANK_THIN",
+		"patch": true,
+
+		"lift": {
+			"base": 125,
+			"multipliers": {
+				"SUSPENDIUM_SPECIALISTS": 1.3,
+				"GRACILE": 2,
+				"ELECTRODYNAMICS": 1.1,
+				"DISABLESUS": 0
+			}
+		}
+	},
+	{
+		"name": "SUSPENDIUM_DUST_TANK_RIGHT_ENDCAP",
+		"patch": true,
+
+		"lift": {
+			"base": 200,
+			"multipliers": {
+				"SUSPENDIUM_SPECIALISTS": 1.3,
+				"GRACILE": 2,
+				"ELECTRODYNAMICS": 1.1,
+				"DISABLESUS": 0
+			}
+		}
+	},
+	{
+		"name": "SUSPENDIUM_DUST_TANK_POINTY_RIGHT_ENDCAP",
+		"patch": true,
+
+		"lift": {
+			"base": 300,
+			"multipliers": {
+				"SUSPENDIUM_SPECIALISTS": 1.3,
+				"GRACILE": 2,
+				"ELECTRODYNAMICS": 1.1,
+				"DISABLESUS": 0
+			}
+		}
+	},
+	{
+		"name": "LARGE_SUSPENDIUM_DUST_TANK",
+		"patch": true,
+
+		"lift": {
+			"base": 3000,
+			"multipliers": {
+				"SUSPENDIUM_SPECIALISTS": 1.3,
+				"GRACILE": 2,
+				"ELECTRODYNAMICS": 1.1,
+				"DISABLESUS": 0
+			}
+		}
+	},
+	{
+		"name": "LARGE_SUSPENDIUM_DUST_TANK_THIN",
+		"patch": true,
+
+		"lift": {
+			"base": 270,
+			"multipliers": {
+				"SUSPENDIUM_SPECIALISTS": 1.3,
+				"GRACILE": 2,
+				"ELECTRODYNAMICS": 1.1,
+				"DISABLESUS": 0
+			}
+		}
+	},
+	{
+		"name": "LARGE_SUSPENDIUM_DUST_TANK_RIGHT_ENDCAP",
+		"patch": true,
+
+		"lift": {
+			"base": 1500,
+			"multipliers": {
+				"SUSPENDIUM_SPECIALISTS": 1.3,
+				"GRACILE": 2,
+				"ELECTRODYNAMICS": 1.1,
+				"DISABLESUS": 0
+			}
+		}
+	},
+	{
+		"name": "LARGE_SUSPENDIUM_DUST_TANK_POINTY_RIGHT_ENDCAP",
+		"patch": true,
+
+		"lift": {
+			"base": 2000,
+			"multipliers": {
+				"SUSPENDIUM_SPECIALISTS": 1.3,
+				"GRACILE": 2,
+				"ELECTRODYNAMICS": 1.1,
+				"DISABLESUS": 0
+			}
+		}
+	},
+	{
+		"name": "PRESSURISED_SUSPENDIUM_DUST_TANK",
+		"patch": true,
+		"lift": {
+			"base": 1400,
+			"SUSPENDIUM_SPECIALISTS": 1820,
+			"multipliers": {
+				"ELECTRODYNAMICS": 1.1,
+				"DISABLESUS": 0
+			}
+		}
+	}
+]
+
