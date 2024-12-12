@@ -1,4 +1,4 @@
-[
+ [
 	{
 		"name": "GAU-8",
 		"appearance": {
@@ -11,20 +11,20 @@
 		"isWeapon": true,
 		"required": "GATLING_GUNS",
 		"frontOnly": true,
-		"clip": 1150,
+		"clip": 600,
 		"ammoPerClip": 10,
 		"clipReloadTime": 10000,
-		"maxRange": 3500,
+		"maxRange": 2100,
 		"inaccuracy": {
-			"base": 0.0005,
-			"LIGHTWEIGHT_ROUNDS": 0.0003
+			"base": 0.003,
+			"LIGHTWEIGHT_ROUNDS": 0.002
 		},
 		"shotSpeed": 2,
-		"optimumRange": 2500,
+		"optimumRange": 750,
 		"jitterMerge": 0.4,
 		"blastDmg": 12,
-		"blastSplashRadius": 15,
-		"penDmg": 2,
+		"blastSplashRadius": 30,
+		"penDmg": 6,
 		"reload": 15,
 		"fireArc": {
 			"direction": "forwards",
@@ -246,7 +246,7 @@
 		"w": 2,
 		"h": 1,
 		"weight": 200,
-		"cost": 500,
+		"cost": 600,
 		"moveDelay": 300,
 		"crew": 3,
 		"categories": [ "WORKSHOP" ],
