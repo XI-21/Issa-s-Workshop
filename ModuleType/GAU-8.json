@@ -49,13 +49,17 @@
 					"h": 16
 				},
 				"barrelX": 0,
-				"barrelY": 0
+				"barrelY": 0,
+				"shotEmitter": {
+					"type": "muzzle_small",
+					"emitProbability": 0.01
+				}
 			}
 		},
 		"muzzleCenterX": 8.825,
 		"muzzleCenterY": 0.545,
 		"muzzleLength": -0.1,
-		"muzzleFlash": true,
+		"muzzleFlash": false,
 		"soundEvery": 5,
 		"fireSound": {
 			"layers": [
