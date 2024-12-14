@@ -1,8 +1,13 @@
 [
 	{
+		"name": "GAU-8F",
+		"flippedFrom": "GAU-8"
+	},
+	{
 		"name": "GAU-8",
+		"hp": 300, "w": 6, "h": 1, "weight": 200, "cost": 600, "moveDelay": 300, "crew": 3, "categories": [ "WORKSHOP" ],
 		"appearance": {
-			"src": "sheet",
+			"src": "isheet",
 			"x": 0,
 			"y": 0,
 			"w": 6,
@@ -26,8 +31,8 @@
 		"blastSplashRadius": 30,
 		"penDmg": 6,
 		"reload": 15,
-		"recoilForce": 1,
-		"impactForce": 0.5,
+		"recoilForce": 0.440,
+		"impactForce": 0.4,
 		"fireArc": {
 			"direction": "forwards",
 			"degrees": 15
@@ -35,14 +40,14 @@
 		"weaponAppearance": {
 			"base": {
 				"shot": {
-					"src": "sheet",
+					"src": "isheet",
 					"x": 0,
 					"y": 34,
 					"w": 4,
 					"h": 2
 				},
 				"barrel": {
-					"src": "sheet",
+					"src": "isheet",
 					"x": 0,
 					"y": 17,
 					"w": 144,
@@ -77,14 +82,6 @@
 					}
 				}
 			]
-		},
-		"hp": 300,
-		"w": 6,
-		"h": 1,
-		"weight": 200,
-		"cost": 600,
-		"moveDelay": 300,
-		"crew": 3,
-		"categories": [ "WORKSHOP" ]
+		}
 	}
 ]

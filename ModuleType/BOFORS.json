@@ -1,0 +1,93 @@
+[
+    {
+        "name": "BOFORSF",
+        "flippedFrom": "BOFORS"
+    },
+    {
+        "name": "BOFORS",
+        "hp": 300,
+        "w": 2,
+        "h": 2,
+        "weight": 100,
+        "cost": 350,
+        "moveDelay": 300,
+        "crew": 2,
+        "categories": [ "WORKSHOP" ],
+        "appearance": {
+            "src": "isheet",
+            "x": 0,
+            "y": 3,
+            "w": 2,
+            "h": 2
+        },
+        "weaponAppearance": {
+            "base": {
+                "shot": {
+                    "src": "isheet",
+                    "x": 0,
+                    "y": 37,
+                    "w": 4,
+                    "h": 1
+                },
+                "barrel": {
+                    "src": "isheet",
+                    "x": 0,
+                    "y": 81,
+                    "w": 67,
+                    "h": 32
+                },
+                "barrelX": 0,
+                "barrelY": 0,
+                "recoil": 5,
+                "shotEmitter": {
+                    "type": "muzzle_small",
+                    "emitProbability": 1
+                }
+            }
+        },
+        "muzzleFlash": true,
+        "muzzleCenterX": 1.125,
+        "muzzleCenterY": 0.8125,
+        "muzzleLength": 2.09375,
+        "isWeapon": true,
+        "required": "GATLING_GUNS",
+        "frontOnly": true,
+        "clip": 10,
+        "ammoPerClip": 2,
+        "clipReloadTime": 4250,
+        "maxRange": 7000,
+        "inaccuracy": {
+            "base": 0.0003,
+            "LIGHTWEIGHT_ROUNDS": 0.002
+        },
+        "shotSpeed": 2,
+        "optimumRange": 5000,
+        "jitterMerge": 0.8,
+        "penDmg": 28,
+        "reload": 750,
+        "recoilForce": 1,
+        "impactForce": 0.75,
+        "fireArc": {
+            "direction": "forwards",
+            "degrees": 45
+        },
+        "soundEvery": 1,
+        "fireSound": {
+            "layers": [
+                {
+                    "variations": [ "bofors1", "bofors2" ],
+                    "volume": {
+                        "min": 0.8,
+                        "max": 1.2,
+                        "distance": [ 0, 2.2, 3000, 1 ]
+                    },
+                    "pitch": {
+                        "min": 1,
+                        "max": 1.2,
+                        "distance": [ 0, 1.2, 3000, 0.7 ]
+                    }
+                }
+            ]
+        }
+    }
+]

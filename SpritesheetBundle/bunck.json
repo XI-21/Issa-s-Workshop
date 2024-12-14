@@ -1,7 +1,7 @@
 [
 {
-		"name": "sheet",
-		"bump": "sheet_bump",
-		"fragments": "sheet_fragment"
+		"name": "isheet",
+		"bump": "isheet_bump",
+		"fragments": "isheet_fragments"
 	}
 ]
