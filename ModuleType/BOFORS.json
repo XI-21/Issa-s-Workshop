@@ -1,11 +1,20 @@
 [
     {
-        "name": "BOFORSF",
+        "name": "BOFORS_F",
         "flippedFrom": "BOFORS"
     },
     {
+        "name": "BOFORS_BF",
+        "flippedFrom": "BOFORS_B"
+    },
+    {
         "name": "BOFORS",
-        "hp": 300,
+        "variants": [ "BOFORS_B" ],
+        "variantType": "SIZES",
+        "hp": 275,
+        "fireHP": 175,
+        "explodeHP": 100,
+        "explodeDmg": 40,
         "w": 2,
         "h": 2,
         "weight": 100,
@@ -33,10 +42,10 @@
                     "src": "isheet",
                     "x": 0,
                     "y": 81,
-                    "w": 67,
-                    "h": 32
+                    "w": 99,
+                    "h": 18
                 },
-                "barrelX": 0,
+                "barrelX": -32,
                 "barrelY": 0,
                 "recoil": 5,
                 "shotEmitter": {
@@ -50,12 +59,15 @@
         "muzzleCenterY": 0.8125,
         "muzzleLength": 2.09375,
         "isWeapon": true,
+        "isCannon": true,
+        "isGun": true,
         "required": "GATLING_GUNS",
         "frontOnly": true,
         "clip": 10,
         "ammoPerClip": 2,
         "clipReloadTime": 4250,
         "maxRange": 7000,
+        "shootTroopsRange": 7000,
         "inaccuracy": {
             "base": 0.0003,
             "LIGHTWEIGHT_ROUNDS": 0.002
@@ -89,5 +101,76 @@
                 }
             ]
         }
+    },
+    {
+        "deriveFrom": "BOFORS",
+        "name": "BOFORS_B",
+        "penDmg": 0,
+        "blastDmg": 28,
+        "blastSplashRadius": 21
+
+    },
+    {
+        "name": "BOFORS_DF",
+        "flippedFrom": "BOFORS_D"
+    },
+    {
+        "name": "BOFORS_DBF",
+        "flippedFrom": "BOFORS_DB"
+    },
+    {
+        "deriveFrom": "BOFORS",
+        "name": "BOFORS_D",
+        "hp": 225,
+        "fireHP": 150,
+        "explodeHP": 50,
+        "explodeDmg": 20,
+        "weight": 75,
+        "cost": 400,
+        "variants": [ "BOFORS_DB" ],
+        "external": false,
+        "frontOnly": false,
+        "frontOnlyList": [ 0 ],
+        "topOnly": true,
+        "fireArc": {
+            "arcCenter": "335",
+            "degrees": 100
+        },
+        "mask": {
+            "x": 0,
+            "y": 14
+        },
+        "weaponAppearance": {
+            "base": {
+                "shot": {
+                    "src": "isheet",
+                    "x": 0,
+                    "y": 37,
+                    "w": 4,
+                    "h": 1
+                },
+                "barrel": {
+                    "src": "isheet",
+                    "x": 0,
+                    "y": 81,
+                    "w": 99,
+                    "h": 18
+                },
+                "barrelX": -35.5,
+                "barrelY": 4,
+                "recoil": 5,
+                "shotEmitter": {
+                    "type": "muzzle_small",
+                    "emitProbability": 1
+                }
+            }
+        }
+    },
+    {
+        "deriveFrom": "BOFORS_D",
+        "name": "BOFORS_DB",
+        "penDmg": 0,
+        "blastDmg": 28,
+        "blastSplashRadius": 21
     }
 ]

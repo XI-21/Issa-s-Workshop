@@ -5,7 +5,17 @@
 	},
 	{
 		"name": "GAU-8",
-		"hp": 300, "w": 6, "h": 1, "weight": 200, "cost": 600, "moveDelay": 300, "crew": 3, "categories": [ "WORKSHOP" ],
+		"hp": 300,
+		"fireHP": 225,
+		"explodeHP": 150,
+		"explodeDmg": 100,
+		"w": 6,
+		"h": 1,
+		"weight": 200,
+		"cost": 600,
+		"moveDelay": 300,
+		"crew": 3,
+		"categories": [ "WORKSHOP" ],
 		"appearance": {
 			"src": "isheet",
 			"x": 0,
@@ -57,7 +67,7 @@
 				"barrelY": 0,
 				"shotEmitter": {
 					"type": "muzzle_small",
-					"emitProbability": 0.01
+					"emitProbability": 0.15
 				}
 			}
 		},
