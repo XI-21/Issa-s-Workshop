@@ -75,6 +75,7 @@
 		"muzzleCenterY": 0.545,
 		"muzzleLength": -0.1,
 		"muzzleFlash": false,
+		"hitParticle": "damaged_spark",
 		"soundEvery": 5,
 		"fireSound": {
 			"layers": [

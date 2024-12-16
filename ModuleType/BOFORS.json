@@ -55,6 +55,7 @@
             }
         },
         "muzzleFlash": true,
+        "hitParticle": "damaged_spark",
         "muzzleCenterX": 1.125,
         "muzzleCenterY": 0.8125,
         "muzzleLength": 2.09375,
@@ -67,10 +68,10 @@
         "ammoPerClip": 2,
         "clipReloadTime": 4250,
         "maxRange": 7000,
-        "shootTroopsRange": 7000,
+        "shootTroopsRange": 1050,
         "inaccuracy": {
-            "base": 0.0003,
-            "LIGHTWEIGHT_ROUNDS": 0.002
+            "base": 0.0018,
+            "PRECISE_GUNNERY": 0.0009
         },
         "shotSpeed": 2,
         "optimumRange": 5000,
