@@ -83,6 +83,8 @@
             },
             "barrelX": 4,
             "barrelY": 6,
+            "hitExplosionSize": 1,
+            "missExplosionSize": 0.4,
             "recoil": 1
         },
         "soundEvery": 1,
