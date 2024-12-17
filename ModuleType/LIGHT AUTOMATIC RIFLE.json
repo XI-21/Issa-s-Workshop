@@ -30,7 +30,7 @@
             "base": 30,
             "LIGHTWEIGHT_ROUNDS": 48
         },
-        "maxRange": 7700,
+        "maxRange": 2800,
         "inaccuracy": {
             "base": 0.00132,
             "multipliers": {
@@ -49,7 +49,7 @@
         "shootTroopsRange": 400,
         "fireArc": {
             "direction": "forwards",
-            "degrees": 240
+            "degrees": 150
         },
         "muzzleCenterX": 0.68,
         "muzzleCenterY": 0.56,

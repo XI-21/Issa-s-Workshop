@@ -1,0 +1,51 @@
+[
+	{
+		"endClr": {
+			"a": 0,
+			"b": 0,
+			"g": 255,
+			"r": 255
+		},
+		"endSize": 8,
+		"grav": 0,
+		"lightClr": {
+			"a": 255,
+			"b": 0,
+			"g": 255,
+			"r": 255
+		},
+		"lightRadius": 5,
+		"offset": 0,
+		"lit": false,
+		"maxDx": 0,
+		"maxDy": 0,
+		"maxLifespan": 30,
+		"minDx": 0,
+		"minDy": 0,
+		"minLifespan": 20,
+		"name": "YTRACER",
+		"haloStrength": 0,
+		"pictureType": "YTRACER",
+		"startClr": {
+			"a": 255,
+			"b": 255,
+			"g": 255,
+			"r": 255
+		},
+		"startSize": 8,
+		"strongLight": true,
+		"tintEndClr": {
+			"a": 0,
+			"b": 255,
+			"g": 255,
+			"r": 255
+		},
+		"tintStartClr": {
+			"a": 255,
+			"b": 255,
+			"g": 255,
+			"r": 255
+		},
+		"windMult": 0
+	}
+]

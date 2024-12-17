@@ -1,7 +1,12 @@
 [
-{
+	{
 		"name": "isheet",
 		"bump": "isheet_bump",
 		"fragments": "isheet_fragments"
+	},
+	{
+		"name": "tracers",
+		"bump": "tracers_bump",
+		"fragments": "tracers_fragments"
 	}
 ]

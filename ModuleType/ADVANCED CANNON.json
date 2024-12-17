@@ -1,0 +1,100 @@
+[
+    {
+        "name": "ADV_CANNON_F",
+        "flippedFrom": "ADV_CANNON"
+    },
+    {
+        "name": "ADV_CANNON",
+        "hp": 100,
+        "fireHP": 65,
+        "explodeHP": {
+            "base": 20,
+            "SAFER_CANNONS": 0
+        },
+        "explodeDmg": {
+            "base": 30,
+            "SAFER_CANNONS": 0
+        },
+        "w": 3,
+        "h": 1,
+        "weight": 100,
+        "cost": 85,
+        "moveDelay": 300,
+        "crew": 2,
+        "recommendedCrew": 3,
+        "categories": [ "WORKSHOP" ],
+        "appearance": {
+            "src": "isheet",
+            "x": 0,
+            "y": 17,
+            "w": 3,
+            "h": 1
+        },
+        "weaponAppearance": {
+            "base": {
+                "shot": {
+                    "src": "isheet",
+                    "x": 0,
+                    "y": 41,
+                    "w": 5,
+                    "h": 2
+                },
+                "barrel": {
+                    "src": "isheet",
+                    "x": 0,
+                    "y": 289,
+                    "w": 98,
+                    "h": 14
+                },
+                "barrelX": -18,
+                "barrelY": 1,
+                "recoil": 5
+            }
+        },
+        "muzzleFlash": true,
+        "hitParticle": "damaged_spark",
+        "muzzleCenterX": 2.5,
+        "muzzleCenterY": 0.53125,
+        "muzzleLength": 1,
+        "isWeapon": true,
+        "isCannon": true,
+        "isGun": true,
+        "required": "HEAVY_CANNON",
+        "frontOnly": true,
+        "clip": 1,
+        "ammoPerClip": 1,
+        "maxRange": 7900,
+        "inaccuracy": {
+            "base": 0.001,
+            "PRECISE_GUNNERY": 0.0008
+        },
+        "shotSpeed": 2,
+        "optimumRange": 3500,
+        "penDmg": 48,
+        "reload": 6000,
+        "recoilForce": 2,
+        "impactForce": 1.5,
+        "fireArc": {
+            "direction": "forwards",
+            "degrees": 40
+        },
+        "soundEvery": 1,
+        "fireSound": {
+            "layers": [
+                {
+                    "variations": [ "adv_cannon" ],
+                    "volume": {
+                        "min": 0.8,
+                        "max": 1.2,
+                        "distance": [ 0, 2.2, 3000, 1 ]
+                    },
+                    "pitch": {
+                        "min": 1,
+                        "max": 1.2,
+                        "distance": [ 0, 1.2, 3000, 0.7 ]
+                    }
+                }
+            ]
+        }
+    }
+]

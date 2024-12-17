@@ -15,6 +15,7 @@
 		"cost": 600,
 		"moveDelay": 300,
 		"crew": 3,
+		"recommendedCrew": 5,
 		"categories": [ "WORKSHOP" ],
 		"appearance": {
 			"src": "isheet",
@@ -34,7 +35,7 @@
 			"base": 0.003,
 			"LIGHTWEIGHT_ROUNDS": 0.002
 		},
-		"shotSpeed": 2,
+		"shotSpeed": 1,
 		"optimumRange": 750,
 		"jitterMerge": 0.4,
 		"blastDmg": 12,
@@ -66,7 +67,7 @@
 				"barrelX": 0,
 				"barrelY": 0,
 				"shotEmitter": {
-					"type": "muzzle_small",
+					"type": "YTRACER",
 					"emitProbability": 0.15
 				}
 			}
