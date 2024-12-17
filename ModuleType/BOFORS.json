@@ -21,6 +21,7 @@
         "cost": 350,
         "moveDelay": 300,
         "crew": 2,
+        "recommendedCrew": 3,
         "categories": [ "WORKSHOP" ],
         "appearance": {
             "src": "isheet",
@@ -49,7 +50,7 @@
                 "barrelY": 0,
                 "recoil": 5,
                 "shotEmitter": {
-                    "type": "muzzle_small",
+                    "type": "YTRACER",
                     "emitProbability": 1
                 }
             }
@@ -73,7 +74,7 @@
             "base": 0.0018,
             "PRECISE_GUNNERY": 0.0009
         },
-        "shotSpeed": 2,
+        "shotSpeed": 1,
         "optimumRange": 5000,
         "jitterMerge": 0.8,
         "penDmg": 28,
@@ -158,10 +159,10 @@
                     "h": 18
                 },
                 "barrelX": -35.5,
-                "barrelY": 4,
+                "barrelY": 3,
                 "recoil": 5,
                 "shotEmitter": {
-                    "type": "muzzle_small",
+                    "type": "YTRACER",
                     "emitProbability": 1
                 }
             }
