@@ -66,6 +66,8 @@
 				},
 				"barrelX": 0,
 				"barrelY": 0,
+				"hitExplosionSize": 0.01,
+				"missExplosionSize": 0.005,
 				"shotEmitter": {
 					"type": "YTRACER",
 					"emitProbability": 0.15

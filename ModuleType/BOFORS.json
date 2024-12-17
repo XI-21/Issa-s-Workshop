@@ -109,7 +109,34 @@
         "name": "BOFORS_B",
         "penDmg": 0,
         "blastDmg": 28,
-        "blastSplashRadius": 21
+        "blastSplashRadius": 21,
+        "weaponAppearance": {
+            "base": {
+                "shot": {
+                    "src": "isheet",
+                    "x": 0,
+                    "y": 37,
+                    "w": 4,
+                    "h": 1
+                },
+                "barrel": {
+                    "src": "isheet",
+                    "x": 0,
+                    "y": 81,
+                    "w": 99,
+                    "h": 18
+                },
+                "barrelX": -32,
+                "barrelY": 0,
+                "recoil": 5,
+                "hitExplosionSize": 1,
+                "missExplosionSize": 0.5,
+                "shotEmitter": {
+                    "type": "YTRACER",
+                    "emitProbability": 10
+                }
+            }
+        }
 
     },
     {
@@ -173,6 +200,33 @@
         "name": "BOFORS_DB",
         "penDmg": 0,
         "blastDmg": 28,
-        "blastSplashRadius": 21
+        "blastSplashRadius": 21,
+        "weaponAppearance": {
+            "base": {
+                "shot": {
+                    "src": "isheet",
+                    "x": 0,
+                    "y": 37,
+                    "w": 4,
+                    "h": 1
+                },
+                "barrel": {
+                    "src": "isheet",
+                    "x": 0,
+                    "y": 81,
+                    "w": 99,
+                    "h": 18
+                },
+                "barrelX": -32,
+                "barrelY": 0,
+                "recoil": 5,
+                "hitExplosionSize": 1,
+                "missExplosionSize": 0.5,
+                "shotEmitter": {
+                    "type": "YTRACER",
+                    "emitProbability": 1
+                }
+            }
+        }
     }
 ]

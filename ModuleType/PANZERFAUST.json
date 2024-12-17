@@ -41,7 +41,10 @@
         "clip": 3,
         "inaccuracy": 0.007,
         "penDmg": 40,
+<<<<<<< HEAD
+=======
 
+>>>>>>> 78281dea203d817b0c9f9c191f531854d6175a73
         "fireArc": {
             "direction": "forwards",
             "degrees": 100
@@ -83,7 +86,13 @@
             },
             "barrelX": 4,
             "barrelY": 6,
+<<<<<<< HEAD
+            "recoil": 1,
+            "hitExplosionSize": 1,
+            "missExplosionSize": 0.4
+=======
             "recoil": 1
+>>>>>>> 78281dea203d817b0c9f9c191f531854d6175a73
         },
         "soundEvery": 1,
         "fireSound": {
