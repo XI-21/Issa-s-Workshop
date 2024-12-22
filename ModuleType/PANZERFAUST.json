@@ -38,8 +38,9 @@
         "shotSpeed": 0.7,
         "reload": 2000,
         "clipReloadTime": 6000,
+        "ammoPerClip": 2,
         "clip": 3,
-        "inaccuracy": 0.007,
+        "inaccuracy": 0.006,
         "penDmg": 40,
 
         "fireArc": {

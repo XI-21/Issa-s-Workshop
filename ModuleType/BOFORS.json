@@ -68,7 +68,7 @@
         "clip": 10,
         "ammoPerClip": 2,
         "clipReloadTime": 4250,
-        "maxRange": 5900,
+        "maxRange": 4900,
         "shootTroopsRange": 1050,
         "inaccuracy": {
             "base": 0.0018,

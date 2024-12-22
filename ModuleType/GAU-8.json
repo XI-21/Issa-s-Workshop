@@ -25,7 +25,7 @@
 			"h": 1
 		},
 		"isWeapon": true,
-		"required": "GATLING_GUNS",
+		"required": "TORPEDOES",
 		"frontOnly": true,
 		"clip": 600,
 		"ammoPerClip": 10,
