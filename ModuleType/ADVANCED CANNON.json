@@ -63,14 +63,13 @@
         "frontOnly": true,
         "clip": 1,
         "ammoPerClip": 1,
-        "maxRange": 7900,
         "inaccuracy": {
-            "base": 0.001,
-            "PRECISE_GUNNERY": 0.0008
+            "base": 0.00105,
+            "PRECISE_GUNNERY": 0.00525
         },
         "shotSpeed": 2,
         "optimumRange": 3500,
-        "penDmg": 48,
+        "penDmg": 56,
         "reload": 6000,
         "recoilForce": 2,
         "impactForce": 1.5,

@@ -46,12 +46,12 @@
                     "w": 99,
                     "h": 18
                 },
-                "barrelX": -32,
-                "barrelY": 0,
+                "barrelX": -35.5,
+                "barrelY": 3,
                 "recoil": 5,
                 "shotEmitter": {
                     "type": "YTRACER",
-                    "emitProbability": 1
+                    "emitProbability": 100
                 }
             }
         },
@@ -68,16 +68,16 @@
         "clip": 10,
         "ammoPerClip": 2,
         "clipReloadTime": 4250,
-        "maxRange": 7000,
+        "maxRange": 5900,
         "shootTroopsRange": 1050,
         "inaccuracy": {
             "base": 0.0018,
             "PRECISE_GUNNERY": 0.0009
         },
-        "shotSpeed": 1,
-        "optimumRange": 5000,
+        "shotSpeed": 2,
+        "optimumRange": 4500,
         "jitterMerge": 0.8,
-        "penDmg": 28,
+        "penDmg": 20,
         "reload": 750,
         "recoilForce": 1,
         "impactForce": 0.75,
@@ -108,7 +108,7 @@
         "deriveFrom": "BOFORS",
         "name": "BOFORS_B",
         "penDmg": 0,
-        "blastDmg": 28,
+        "blastDmg": 20,
         "blastSplashRadius": 21,
         "weaponAppearance": {
             "base": {
@@ -133,7 +133,7 @@
                 "missExplosionSize": 0.9,
                 "shotEmitter": {
                     "type": "YTRACER",
-                    "emitProbability": 1
+                    "emitProbability": 100
                 }
             }
         }
@@ -191,7 +191,7 @@
                 "recoil": 5,
                 "shotEmitter": {
                     "type": "YTRACER",
-                    "emitProbability": 1
+                    "emitProbability": 100
                 }
             }
         }
@@ -200,7 +200,7 @@
         "deriveFrom": "BOFORS_D",
         "name": "BOFORS_DB",
         "penDmg": 0,
-        "blastDmg": 28,
+        "blastDmg": 20,
         "blastSplashRadius": 21,
         "weaponAppearance": {
             "base": {
@@ -225,7 +225,7 @@
                 "missExplosionSize": 0.9,
                 "shotEmitter": {
                     "type": "YTRACER",
-                    "emitProbability": 1
+                    "emitProbability": 100
                 }
             }
         }

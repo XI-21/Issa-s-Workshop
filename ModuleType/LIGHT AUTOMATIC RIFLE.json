@@ -24,13 +24,13 @@
         "crew": 1,
         "recommendedCrew": 2,
         "frontOnly": true,
-        "reload": 125,
+        "reload": 200,
         "clipReloadTime": 1300,
         "clip": {
-            "base": 30,
-            "LIGHTWEIGHT_ROUNDS": 48
+            "base": 20,
+            "LIGHTWEIGHT_ROUNDS": 36
         },
-        "maxRange": 2800,
+        "maxRange": 1260,
         "inaccuracy": {
             "base": 0.00132,
             "multipliers": {
@@ -43,8 +43,8 @@
             "LIGHTWEIGHT_ROUNDS": 9
         },
         "penDmg": {
-            "base": 5,
-            "ARMOUR_PIERCING_ROUNDS": 8
+            "base": 4,
+            "ARMOUR_PIERCING_ROUNDS": 6
         },
         "shootTroopsRange": 400,
         "fireArc": {
