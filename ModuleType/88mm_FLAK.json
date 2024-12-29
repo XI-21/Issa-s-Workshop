@@ -1,0 +1,141 @@
+[
+    {
+        "name": "88MM_FLAK_F",
+        "flippedFrom": "88MM_FLAK"
+    },
+    {
+        "name": "88MM_FLAK_BF",
+        "flippedFrom": "88MM_FLAK_B"
+    },
+    {
+        "name": "88MM_FLAK",
+        "variants": [ "88MM_FLAK_B" ],
+        "variantType": "SIZES",
+        "external": true,
+        "hp": 100,
+        "fireHP": 40,
+        "explodeHP": 20,
+        "explodeDmg": 50,
+        "w": 2,
+        "h": 2,
+        "weight": 130,
+        "cost": 188,
+        "moveDelay": 300,
+        "crew": 3,
+        "recommendedCrew": 4,
+        "categories": [ "WORKSHOP" ],
+        "appearance": {
+            "src": "isheet",
+            "x": 0,
+            "y": 3,
+            "w": 2,
+            "h": 2
+        },
+        "weaponAppearance": {
+            "base": {
+                "shot": {
+                    "src": "isheet",
+                    "x": 0,
+                    "y": 37,
+                    "w": 4,
+                    "h": 1
+                },
+                "barrel": {
+                    "src": "isheet",
+                    "x": 0,
+                    "y": 81,
+                    "w": 99,
+                    "h": 18
+                },
+                "barrelX": -35.5,
+                "barrelY": 3,
+                "recoil": 5,
+                "shotEmitter": {
+                    "type": "YTRACER",
+                    "emitProbability": 100
+                }
+            }
+        },
+        "muzzleFlash": true,
+        "hitParticle": "damaged_spark",
+        "muzzleCenterX": 1.125,
+        "muzzleCenterY": 0.8125,
+        "muzzleLength": 2.09375,
+        "isWeapon": true,
+        "isCannon": true,
+        "isGun": true,
+        "required": "GATLING_GUNS",
+        "frontOnly": true,
+        "clip": 10,
+        "ammoPerClip": 2,
+        "clipReloadTime": 2000,
+        "inaccuracy": {
+            "base": 0.0012,
+            "PRECISE_GUNNERY": 0.0006
+        },
+        "shotSpeed": 1,
+        "optimumRange": 4500,
+        "jitterMerge": 0.8,
+        "penDmg": 88,
+        "reload": 2000,
+        "recoilForce": 1,
+        "impactForce": 0.75,
+        "fireArc": {
+            "arcCenter": "335",
+            "degrees": 100
+        },
+        "soundEvery": 1,
+        "fireSound": {
+            "layers": [
+                {
+                    "variations": [ "88MM_FLAK1", "88MM_FLAK2" ],
+                    "volume": {
+                        "min": 0.8,
+                        "max": 1.2,
+                        "distance": [ 0, 2.2, 3000, 1 ]
+                    },
+                    "pitch": {
+                        "min": 1,
+                        "max": 1.2,
+                        "distance": [ 0, 1.2, 3000, 0.7 ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "deriveFrom": "88MM_FLAK",
+        "name": "88MM_FLAK_B",
+        "penDmg": 0,
+        "blastDmg": 88,
+        "blastSplashRadius": 35,
+        "clipReloadTime": 2000,
+        "weaponAppearance": {
+            "base": {
+                "shot": {
+                    "src": "isheet",
+                    "x": 0,
+                    "y": 37,
+                    "w": 4,
+                    "h": 1
+                },
+                "barrel": {
+                    "src": "isheet",
+                    "x": 0,
+                    "y": 81,
+                    "w": 99,
+                    "h": 18
+                },
+                "barrelX": -35.5,
+                "barrelY": 3,
+                "recoil": 5,
+                "hitExplosionSize": 1.5,
+                "missExplosionSize": 0.9,
+                "shotEmitter": {
+                    "type": "YTRACER",
+                    "emitProbability": 100
+                }
+            }
+        }
+    }
+]
