@@ -12,11 +12,11 @@
         "variants": [ "88MM_FLAK_B" ],
         "variantType": "SIZES",
         "external": true,
-        "hp": 100,
-        "fireHP": 40,
-        "explodeHP": 20,
-        "explodeDmg": 50,
-        "w": 2,
+        "hp": 200,
+        "fireHP": 50,
+        "explodeHP": 40,
+        "explodeDmg": 100,
+        "w": 5,
         "h": 2,
         "weight": 130,
         "cost": 188,
@@ -26,9 +26,9 @@
         "categories": [ "WORKSHOP" ],
         "appearance": {
             "src": "isheet",
-            "x": 0,
-            "y": 3,
-            "w": 2,
+            "x": 6,
+            "y": 14,
+            "w": 5,
             "h": 2
         },
         "weaponAppearance": {
@@ -42,13 +42,13 @@
                 },
                 "barrel": {
                     "src": "isheet",
-                    "x": 0,
-                    "y": 81,
-                    "w": 99,
-                    "h": 18
+                    "x": 102,
+                    "y": 188,
+                    "w": 81,
+                    "h": 23
                 },
-                "barrelX": -35.5,
-                "barrelY": 3,
+                "barrelX": 13,
+                "barrelY": -1,
                 "recoil": 5,
                 "shotEmitter": {
                     "type": "YTRACER",
@@ -58,15 +58,16 @@
         },
         "muzzleFlash": true,
         "hitParticle": "damaged_spark",
-        "muzzleCenterX": 1.125,
-        "muzzleCenterY": 0.8125,
-        "muzzleLength": 2.09375,
+        "muzzleCenterX": 2.75,
+        "muzzleCenterY": 0.5,
+        "muzzleLength": 2.4,
         "isWeapon": true,
         "isCannon": true,
         "isGun": true,
         "required": "GATLING_GUNS",
         "frontOnly": true,
-        "clip": 10,
+        "topOnly": true,
+        "clip": 2,
         "ammoPerClip": 2,
         "clipReloadTime": 2000,
         "inaccuracy": {
@@ -75,24 +76,24 @@
         },
         "shotSpeed": 1,
         "optimumRange": 4500,
-        "jitterMerge": 0.8,
+        "jitterMerge": 0.9,
         "penDmg": 88,
         "reload": 2000,
         "recoilForce": 1,
         "impactForce": 0.75,
         "fireArc": {
-            "arcCenter": "335",
+            "direction": "forwards",
             "degrees": 100
         },
         "soundEvery": 1,
         "fireSound": {
             "layers": [
                 {
-                    "variations": [ "88MM_FLAK1", "88MM_FLAK2" ],
+                    "variations": [ "88mm1", "88mm2", "88mm3" ],
                     "volume": {
-                        "min": 0.8,
-                        "max": 1.2,
-                        "distance": [ 0, 2.2, 3000, 1 ]
+                        "min": 0.4,
+                        "max": 0.7,
+                        "distance": [ 0, 1, 3000, 0.5 ]
                     },
                     "pitch": {
                         "min": 1,
@@ -121,13 +122,13 @@
                 },
                 "barrel": {
                     "src": "isheet",
-                    "x": 0,
-                    "y": 81,
-                    "w": 99,
-                    "h": 18
+                    "x": 102,
+                    "y": 188,
+                    "w": 81,
+                    "h": 23
                 },
-                "barrelX": -35.5,
-                "barrelY": 3,
+                "barrelX": 13,
+                "barrelY": -1,
                 "recoil": 5,
                 "hitExplosionSize": 1.5,
                 "missExplosionSize": 0.9,

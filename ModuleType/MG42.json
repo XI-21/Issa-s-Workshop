@@ -1,0 +1,114 @@
+[
+	{
+		"name": "MG42_F",
+		"flippedFrom": "MG42"
+	},
+	{
+		"name": "MG42",
+		"categories": [ "WORKSHOP" ],
+		"required": "HUSSARS",
+		"isWeapon": true,
+		"isGun": true,
+		"w": 2,
+		"h": 1,
+		"appearance": {
+			"src": "isheet",
+			"x": 0,
+			"y": 22,
+			"h": 1,
+			"w": 2
+		},
+		"externalAppearances": [
+			{
+				"x": 2,
+				"y": 0,
+				"appearance": {
+					"src": "isheet",
+					"x": 2,
+					"y": 22,
+					"w": 1,
+					"h": 1
+				}
+			}
+		],
+
+		"frontOnly": true,
+		"moveDelay": 800,
+		"hp": 100,
+		"fireHP": 50,
+		"weight": 40,
+		"cost": 100,
+		"crew": 2,
+		"recommendedCrew": 3,
+		"penDmg": 4,
+		"reload": 83.333,
+		"clipReloadTime": 8000,
+		"clip": 80,
+		"inaccuracy": 0.0014,
+		"jitterMerge": 0.8,
+		"optimumRange": 300,
+		"maxRange": 840,
+		"shootTroopsRange": 400,
+		"obeysFireMode": false,
+		"inaccuracyFromWeather": true,
+		"fireArc": {
+			"direction": "forwards",
+			"degrees": 80
+		},
+		"muzzleCenterX": 2,
+		"muzzleCenterY": 0.4375,
+		"muzzleLength": 1,
+		"weaponAppearance": {
+			"shot": {
+				"src": "modules",
+				"x": 144,
+				"y": 456,
+				"w": 2,
+				"h": 1
+			},
+			"barrel": {
+				"src": "isheet",
+				"x": 51,
+				"y": 389,
+				"w": 27,
+				"h": 4
+			},
+			"barrelX": 16,
+			"barrelY": 6,
+			"recoil": 2
+		},
+		"fireSound": {
+			"base": {
+				"layers": [
+					{
+						"variations": [ "mg42_1", "mg42_2", "mg42_3", "mg42_4" ],
+						"volume": 1.5,
+						"pitch": {
+							"min": 0.9,
+							"max": 1.1,
+							"distance": [
+								0,
+								1.2,
+								3000,
+								0.7
+							]
+						}
+					}
+				]
+			}
+		},
+		"hitSound": {
+			"layers": [
+				{
+					"variations": [ "mg42h" ],
+					"volume": 1.4,
+					"pitch": {
+						"min": 0.9,
+						"max": 1.1
+					}
+				}
+			]
+		}
+
+	}
+]

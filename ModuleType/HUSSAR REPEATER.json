@@ -271,5 +271,55 @@
 				]
 			}
 		}
+	},
+	{
+		"name": "HUSSAR_REPEATER_SF",
+		"flippedFrom": "HUSSAR_REPEATER_S"
+	},
+	{
+		"deriveFrom": "HUSSAR_REPEATER",
+		"name": "HUSSAR_REPEATER_S",
+		"frontOnly": false,
+		"weaponAppearance": {
+			"shot": {
+				"src": "modules",
+				"x": 144,
+				"y": 456,
+				"w": 2,
+				"h": 1
+			},
+			"barrel": {
+				"src": "isheet",
+				"x": 12,
+				"y": 180,
+				"w": 27,
+				"h": 6
+			},
+			"externalBarrel": {
+				"src": "isheet",
+				"x": 12,
+				"y": 180,
+				"w": 27,
+				"h": 6
+			},
+
+			"barrelX": 12,
+			"barrelY": 4,
+			"recoil": 2
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "modules2",
+					"x": 28,
+					"y": 2,
+					"w": 2,
+					"h": 1
+				}
+			}
+		]
 	}
+
 ]
